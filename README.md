@@ -79,6 +79,6 @@ Stay connected and updated with my latest projects:
 
 ## External Links
 
-- [Huggingface Datasets API](https://huggingface.co/datasets)
+- [Logistic Regression](https://huggingface.co/datasets)
 - [Sigmoid Function Explanation](link-to-a-reliable-source-about-sigmoid)
 - [Binary Cross Entropy Loss](link-to-a-reliable-source-about-bceloss)
