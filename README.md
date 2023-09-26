@@ -83,6 +83,6 @@ Stay connected and updated with my latest projects:
 
 ## External Links
 
-[^1]: [Logistic Regression](link-to-a-reliable-source-about-logistic-regression)
-[^2]: [Sigmoid Function Explanation](link-to-a-reliable-source-about-sigmoid)
-[^3]: [Binary Cross Entropy Loss](link-to-a-reliable-source-about-bceloss)
+[^1]: [Logistic Regression](https://www.ibm.com/topics/logistic-regression)
+[^2]: [Sigmoid Function Explanation](https://en.wikipedia.org/wiki/Sigmoid_function)
+[^3]: [Binary Cross Entropy Loss](https://arize.com/blog-course/binary-cross-entropy-log-loss)
