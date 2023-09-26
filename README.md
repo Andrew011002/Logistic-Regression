@@ -56,15 +56,15 @@ To install the necessary dependencies for the Logistic Regression model, use the
 
 ## Notebooks
 
-- **Cats vs Dogs Classifier**: This notebook guides you through data preprocessing and preparation, model initialization, setting up hyperparameters, and the training and testing phases. You'll witness the model achieving an accuracy rate of 99%. Access the notebook here: [cats-vs-dogs-classifier.ipynb](link-to-your-notebook).
+- **Cats vs Dogs Classifier**: This notebook guides you through data preprocessing and preparation, model initialization, setting up hyperparameters, and the training and testing phases. You'll witness the model achieving an accuracy rate of 99%. Access the notebook here: [cats-vs-dogs-classifier.ipynb](https://github.com/Andrew011002/Logistic-Regression/blob/master/cats_vs_dogs.ipynb)).
 
 ---
 
 ## Contributing
 
-- **Issues**: Open issues to document enhancements, bugs, or other topics relevant to this repository. Refer to the [Issues page](<your-repo-link>/issues) to begin.
+- **Issues**: Open issues to document enhancements, bugs, or other topics relevant to this repository. Refer to the [Issues page](https://github.com/Andrew011002/Logistic-Regression/issues) to begin.
 
-- **Pull Requests**: Contribute by implementing your own improvements. This can range from bug fixes to more substantial changes. Link your pull requests to related open issues when possible. Navigate to the [Pull Requests page](<your-repo-link>/pulls) to start.
+- **Pull Requests**: Contribute by implementing your own improvements. This can range from bug fixes to more substantial changes. Link your pull requests to related open issues when possible. Navigate to the [Pull Requests page](https://github.com/Andrew011002/Logistic-Regression/pulls) to start.
 
 ---
 
