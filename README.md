@@ -56,7 +56,7 @@ To install the necessary dependencies for the Logistic Regression model, use the
 
 ## Notebooks
 
-- **Cats vs Dogs Classifier**: This notebook guides you through data preprocessing and preparation, model initialization, setting up hyperparameters, and the training and testing phases. You'll witness the model achieving an accuracy rate of 99%. Access the notebook here: [cats-vs-dogs-classifier.ipynb](https://github.com/Andrew011002/Logistic-Regression/blob/master/cats_vs_dogs.ipynb)).
+- **Cats vs Dogs Classifier**: This notebook guides you through data preprocessing and preparation, model initialization, setting up hyperparameters, and the training and testing phases. You'll witness the model achieving an accuracy rate of 99%. Access the notebook here: [cats-vs-dogs-classifier.ipynb](https://github.com/Andrew011002/Logistic-Regression/blob/master/cats_vs_dogs.ipynb).
 
 ---
 
