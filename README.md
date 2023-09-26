@@ -54,9 +54,13 @@ To install the necessary dependencies for the Logistic Regression model, use the
 
 ---
 
-## Notebooks
+## Scripts
 
-- **Cats vs Dogs Classifier**: This notebook guides you through data preprocessing and preparation, model initialization, setting up hyperparameters, and the training and testing phases. You'll witness the model achieving an accuracy rate of 99%. Access the notebook here: [cats-vs-dogs-classifier.ipynb](https://github.com/Andrew011002/Logistic-Regression/blob/master/cats_vs_dogs.ipynb).
+- **Logistic Regression script**: This python file shows you the inner-workings of a logistic regression model implemented in the class `LogisticRegression`. You can not only inspect the model, but see some of the other functions used to enable it's capabilities like: `flatten()` for data preprocessing, `sigmoid()` for the activation function, `calculuate_loss()` for the log-loss function, etc. You can access the full python script here: [logistic_regression.py](https://github.com/Andrew011002/Logistic-Regression/blob/master/logistic_regression.py).
+
+## Notebook
+
+- **Cats vs Dogs Classifier**: This notebook guides you through building a `LogisticRegression` model to predict cats and dogs from the [cats_vs_dogs Hugging Face Dataset](https://huggingface.co/datasets/cats_vs_dogs). You'll learn basic data preprocessing, model initialization, setting up hyperparameters, and both the training and testing of the model. You should expect to see the model achieving a 99% when the notebook is run successfully. You can access the notebook here: [cats-vs-dogs-classifier.ipynb](https://github.com/Andrew011002/Logistic-Regression/blob/master/cats_vs_dogs.ipynb).
 
 ---
 
@@ -79,6 +83,6 @@ Stay connected and updated with my latest projects:
 
 ## External Links
 
-[^1]: [Logistic Regression](https://huggingface.co/datasets)
+[^1]: [Logistic Regression](link-to-a-reliable-source-about-logistic-regression)
 [^2]: [Sigmoid Function Explanation](link-to-a-reliable-source-about-sigmoid)
 [^3]: [Binary Cross Entropy Loss](link-to-a-reliable-source-about-bceloss)
