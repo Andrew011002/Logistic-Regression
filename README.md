@@ -1,23 +1,23 @@
 # Logistic Regression
 
 <p align="center">
-  <!-- Insert an appropriate image or graphic representation of Logistic Regression, if you have one -->
+  <img src="https://github.com/Andrew011002/Logistic-Regression/blob/master/logistic-regression-model-3.png" alt="Logistic Regression Model">
 </p>
 
 ---
 
 ## Description
 
-Logistic regression is a rudimentary statistical method commonly employed for modeling the probability of a given class or event.
+Logistic regression[^1] is a rudimentary statistical method commonly employed for modeling the probability of a given class or event.
 It serves as a fundamental starting point for anyone venturing into machine learning. The objective is to predict the likelihood
 that a given input _x_ belongs to a specific class _y_.  
 
 To achieve this, a dataset containing relevant inputs and labels is first obtained. The dataset is then preprocessed, which
 involves steps like vectorizing, reshaping, and normalizing, to make it suitable for training and testing the logistic
 regression model. The model itself is initialized by setting up the weights and bias, which will be used for a linear
-transformation of the preprocessed inputs. Following this, a sigmoid activation function is applied to squeeze the linearly
+transformation of the preprocessed inputs. Following this, a sigmoid[^2] activation function is applied to squeeze the linearly
 transformed inputs into an interval [0, 1]. This result provides an estimate of the probability that _x_ is _y_. To assess the
-model's performance, a loss function—specifically log loss for binary classification—is utilized. This gives an indication of how
+model's performance, a loss function—specifically log-loss[^3] for binary classification—is utilized. This gives an indication of how
 closely the model's predicted probabilities align with the actual labels. With the model, loss function, and data in place, a
 training loop is executed. During each iteration of this loop, a forward pass is performed to generate the model's predictions,
 after which the loss is calculated. Calculus is then used to find the gradients with respect to the weights and bias. These
@@ -79,6 +79,6 @@ Stay connected and updated with my latest projects:
 
 ## External Links
 
-- [Logistic Regression](https://huggingface.co/datasets)
-- [Sigmoid Function Explanation](link-to-a-reliable-source-about-sigmoid)
-- [Binary Cross Entropy Loss](link-to-a-reliable-source-about-bceloss)
+[^1]: [Logistic Regression](https://huggingface.co/datasets)
+[^2]: [Sigmoid Function Explanation](link-to-a-reliable-source-about-sigmoid)
+[^3]: [Binary Cross Entropy Loss](link-to-a-reliable-source-about-bceloss)
