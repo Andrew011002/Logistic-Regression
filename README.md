@@ -8,26 +8,24 @@
 
 ## Description
 
-Logistic regression is a popular statistical method used for modeling the probability of a certain 
-class or event and is rudimentary for anyone getting started with machine learning. The goal of Logistic
-Regression is: given an input x, predict the probability that it belongs to the class y.
+Logistic regression is a rudimentary statistical method commonly employed for modeling the probability of a given class or event.
+It serves as a fundamental starting point for anyone venturing into machine learning. The objective is to predict the likelihood
+that a given input _x_ belongs to a specific class _y_.  
 
-To accomplish this, we obtain a dataset containing inputs and labels. Next, we preprocess the dataset
-in order to train and test the logistic regression model (e.g. vectorizing, reshaping, normalization, etc.). 
-After, we initialize our model; setting up the weights and bias so that we can peform a linear transform on
-vectorized inputs. We then define an activation function (sigmoid) to squeeze the linear transform into 
-the interval [0, 1] (the resultant value tells us the liklihood that x is y). Following this, we define 
-our loss function (log loss for binary classification) which we can use to tell us the cost of our weights
-on the function (i.e. how good or bad the current state of the model is at predicting an input x to its
-respective label y). Using a training loop, we can iteratively apply the forward pass of the model to the
-inputs to get our model's predictions. We'll calculate the loss and use a little bit of calculus to find
-the gradients (i.e. the negative slope of a function at a point) at the weights and bias respectively. 
-To "learn" our weights and bias, we can apply a small constant(learning rate) to their gradients and subract
-them from the current weights and bias respecitvely. Hopefully after many iterations, we'll have a model
-that accuractely predicts inputs to their correct labels even for a dataset the model hasn't seen.
+To achieve this, a dataset containing relevant inputs and labels is first obtained. The dataset is then preprocessed, which
+involves steps like vectorizing, reshaping, and normalizing, to make it suitable for training and testing the logistic
+regression model. The model itself is initialized by setting up the weights and bias, which will be used for a linear
+transformation of the preprocessed inputs. Following this, a sigmoid activation function is applied to squeeze the linearly
+transformed inputs into an interval [0, 1]. This result provides an estimate of the probability that _x_ is _y_. To assess the
+model's performance, a loss function—specifically log loss for binary classification—is utilized. This gives an indication of how
+closely the model's predicted probabilities align with the actual labels. With the model, loss function, and data in place, a
+training loop is executed. During each iteration of this loop, a forward pass is performed to generate the model's predictions,
+after which the loss is calculated. Calculus is then used to find the gradients with respect to the weights and bias. These
+gradients, when scaled by a learning rate, are used to update the model's weights and bias term. Ideally, after numerous
+iterations, the model should be capable of making accurate predictions, even on unseen data.
 
-> **Note**: _To stabilize numerical values for applying the sigmoid activation and calculating loss,
-the input vectors to the functions are clipped within a range._
+> **Note**: _To stabilize numerical values for applying the sigmoid activation and calculating loss
+for this implementation of logistic regression, the input vectors to the functions are clipped within a range._
 
 ---
 
